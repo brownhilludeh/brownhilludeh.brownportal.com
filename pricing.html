@@ -1,0 +1,161 @@
+<!-- 
+    Author: Brownhill Udeh
+    Created: 12072024
+    Dependencies: Bootstrap v5.3.3 (https://getbootstrap.com/)
+    Author: Brownhill Udeh
+	Purpose: CIS-1280 Final Project
+	Dependencies: bootstrap css & js 5.3.2, scss, css, ion-icon 
+    Updated: 12092024
+-->
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="holland, college, css, hccis, joey, CIS-1280, brownhilludeh" />
+        <meta name="description" content="CIS-1280 Final project - Website development using Bootstrap Framework" />
+        <meta name="author" content="Brownhill Udeh">
+        <meta name="twitter:description" content="#" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta property="og:description" content="holland, college, css, hccis, joey, CIS-1280, brownhilludeh" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="CIS-1280 Final project Udeh Brownhill" />
+        <link rel="shortcut icon" href="img/x-condoLogo.png" type="image/x-icon">
+        <title>CIS-1280 Final project Udeh Brownhill :: Welcome</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+  <body id="pageSection">
+    <!-- Header and Navigation  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">brownhilludeh</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/services.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">E-mail</a></li>
+                <li><a class="dropdown-item" href="/index.html">Call me</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="/index.html">Let's chat</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#" class="btn btn-warning d-flex">
+          Login
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- End of navigation -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="container mt-5">
+      <div class="text-center mb-5">
+        <h2>Pricing Plans</h2>
+        <p>Choose the best plan that fits your needs</p>
+      </div>
+
+      <div class="row pricing-table">
+        <!-- Basic Plan -->
+        <div class="col-md-4">
+          <div class="card shadow-sm border-light rounded">
+            <div class="card-header bg-primary text-white text-center">
+              <h3>Basic</h3>
+              <p>For personal use</p>
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">$19/month</h4>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle"></i> 5 Projects</li>
+                <li><i class="bi bi-check-circle"></i> 10GB Storage</li>
+                <li><i class="bi bi-check-circle"></i> Email Support</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Standard Plan -->
+        <div class="col-md-4">
+          <div class="card shadow-sm border-light rounded">
+            <div class="card-header bg-success text-white text-center">
+              <h3>Standard</h3>
+              <p>For small teams</p>
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">$39/month</h4>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle"></i> 20 Projects</li>
+                <li><i class="bi bi-check-circle"></i> 50GB Storage</li>
+                <li><i class="bi bi-check-circle"></i> Priority Support</li>
+              </ul>
+              <a href="#" class="btn btn-success">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="col-md-4">
+          <div class="card shadow-sm border-light rounded">
+            <div class="card-header bg-danger text-white text-center">
+              <h3>Premium</h3>
+              <p>For large teams</p>
+            </div>
+            <div class="card-body text-center">
+              <h4 class="card-title">$79/month</h4>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle"></i> Unlimited Projects</li>
+                <li><i class="bi bi-check-circle"></i> 200GB Storage</li>
+                <li><i class="bi bi-check-circle"></i> 24/7 Support</li>
+              </ul>
+              <a href="#" class="btn btn-danger">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="mt-5">
+      <div class=" container text-center py-3 ">
+        Copyright reserved &copy; brownhilludeh 2024. |
+        <small>designed by </small>
+        <a href="https://brownhilludeh.brownportal.com">Brownhill Udeh</a>
+        <sup><small>TM</small></sup>
+      </div>
+    </footer>
+
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
